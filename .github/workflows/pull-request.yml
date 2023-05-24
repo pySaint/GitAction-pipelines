@@ -23,13 +23,10 @@ jobs:
       - name: Run tests
         id: test
         run: |
-          docker run --name dummy-pipeline-container --rm dummy-pipeline-image:${{ steps.random-tag.outputs.tag }} pytest | tee test_logs.txt
+          docker run --name dummy-pipeline-container --rm dummy-pipeline-image:${{ steps.random-tag.outputs.tag }} pytest -m 'debug' tests/sample-tests/step_defs | tee test_logs.txt
 
       - name: Archive test logs
         uses: actions/upload-artifact@v2
         with:
           name: test-logs
           path: test_logs.txt
-
-      - name: Remove container
-        run: docker rm dummy-pipeline-container
