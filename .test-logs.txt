@@ -1,0 +1,45 @@
+============================= test session starts ==============================
+platform linux -- Python 3.9.16, pytest-7.3.1, pluggy-1.0.0
+rootdir: /app
+plugins: bdd-6.1.1
+collected 2 items / 1 deselected / 1 selected
+
+tests/sample-tests/step_defs/test_sample.py .                            [100%]
+
+=============================== warnings summary ===============================
+../usr/local/lib/python3.9/site-packages/pytest_bdd/plugin.py:127
+  /usr/local/lib/python3.9/site-packages/pytest_bdd/plugin.py:127: PytestUnknownMarkWarning: Unknown pytest.mark.debug - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    mark = getattr(pytest.mark, tag)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+================== 1 passed, 1 deselected, 1 warning in 0.03s ==================
+============================= test session starts ==============================
+platform linux -- Python 3.9.16, pytest-7.3.1, pluggy-1.0.0
+rootdir: /app
+plugins: bdd-6.1.1
+collected 2 items / 1 deselected / 1 selected
+
+tests/sample-tests/step_defs/test_sample.py .                            [100%]
+
+=============================== warnings summary ===============================
+../usr/local/lib/python3.9/site-packages/pytest_bdd/plugin.py:127
+  /usr/local/lib/python3.9/site-packages/pytest_bdd/plugin.py:127: PytestUnknownMarkWarning: Unknown pytest.mark.debug - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    mark = getattr(pytest.mark, tag)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+================== 1 passed, 1 deselected, 1 warning in 0.02s ==================
+============================= test session starts ==============================
+platform linux -- Python 3.9.16, pytest-7.3.1, pluggy-1.0.0
+rootdir: /app
+plugins: bdd-6.1.1
+collected 2 items / 1 deselected / 1 selected
+
+tests/sample-tests/step_defs/test_sample.py .                            [100%]
+
+=============================== warnings summary ===============================
+../usr/local/lib/python3.9/site-packages/pytest_bdd/plugin.py:127
+  /usr/local/lib/python3.9/site-packages/pytest_bdd/plugin.py:127: PytestUnknownMarkWarning: Unknown pytest.mark.debug - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    mark = getattr(pytest.mark, tag)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+================== 1 passed, 1 deselected, 1 warning in 0.02s ==================
